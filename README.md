@@ -9,6 +9,7 @@ HHA 507 HW 4
 2. Python's Shiny Visualization:
 * I went through many struggles during this stage. First I made sure to pip install shiny and matplotlib. Then once I took the example code and tried to run it via python app.py or shiny run app.py --reload but I got the error that "ImportError: cannot import name 'app' from partially initialized module 'market' (most likely due to a circular import)"
 * Then once I took my app.py outside of the shiny_python folder, it ran and created a pycache folder and doing this would work and create a temporary link
+* ![image](https://github.com/meglee67/datasci_4_web_viz/assets/123908362/7e705f7c-eef4-4081-85c6-8e85e6afa292)
 * I then followed the instructions through this [link](https://medium.com/trevor-french/creating-deploying-shiny-apps-in-python-f446557f6084) in an attempt to push to shinyapps.io and create a permanent link, but ran into the issue of "Error: Nickname does not exist". 
 
 3. Flask with Matplotlib Visualization:
