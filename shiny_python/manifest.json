@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "locale": "en_US.UTF-8",
+  "metadata": {
+    "appmode": "python-shiny",
+    "entrypoint": "app"
+  },
+  "python": {
+    "version": "3.9.2",
+    "package_manager": {
+      "name": "pip",
+      "version": "20.3.4",
+      "package_file": "requirements.txt"
+    }
+  },
+  "files": {
+    "requirements.txt": {
+      "checksum": "48a29adc961d0ac06ef0f705b37fc3c7"
+    },
+    "app.py": {
+      "checksum": "3d44be39f935bbbce87bf2ed456f7ef5"
+    }
+  }
+}
