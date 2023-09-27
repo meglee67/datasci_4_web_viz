@@ -7,3 +7,9 @@ HHA 507 HW 4
 * Also I had trouble with the initial dataset I chose (Florida) so I went back to the [CDC website](https://data.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-County-Data-20/swc5-untb) and extracted a new dataset (Texas) and that ended up working.
 
 2. Python's Shiny Visualization:
+* I went through many struggles during this stage. First I made sure to pip install shiny and matplotlib. Then once I took the example code and tried to run it via python app.py or shiny run app.py --reload but I got the error that "ImportError: cannot import name 'app' from partially initialized module 'market' (most likely due to a circular import)"
+* Then once I took my app.py outside of the shiny_python folder, it ran and created a pycache folder and doing this would work and create a temporary link
+* I then followed the instructions through this [link](https://medium.com/trevor-french/creating-deploying-shiny-apps-in-python-f446557f6084) in an attempt to push to shinyapps.io and create a permanent link, but ran into the issue of "Error: Nickname does not exist". 
+
+3. Flask with Matplotlib Visualization:
+* I was unable to get this link to run as it kept telling me the file path didn't exist. Doing this assignment alongside a classmate, we found that if we had other existing .py files, then moving onto the next section and trying to run a different .py file it wouldn't recognize or let us.
